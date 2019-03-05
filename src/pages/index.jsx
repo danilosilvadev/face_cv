@@ -4,6 +4,7 @@ import Context from '../utils/services/context';
 import { BodyBackground } from '../utils/helpers/styled-helpers';
 import { theme } from '../theme';
 import { ThemeSelector } from "../components";
+import { Header, About } from '../components';
 
 export default class App extends Component {
   constructor(){
@@ -71,7 +72,7 @@ export default class App extends Component {
   handleHeader() {
     const { state, actions } = this;
     return (
-      <div state={state} actions={actions}/>
+      <Header state={state} actions={actions}/>
     );
   }
 

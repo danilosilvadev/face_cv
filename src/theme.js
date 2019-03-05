@@ -75,7 +75,7 @@ export const theme = {
   },
   primary: {
     borderColor: palette.GRAY['02'],
-    backgroundColor: palette.PRIMARY.BLUE['01'],
+    backgroundColor: palette.GRAY['00'],
     color: palette.PRIMARY.BLUE['01'],
     fontSize: '2rem',
     fontWeight: 700,
